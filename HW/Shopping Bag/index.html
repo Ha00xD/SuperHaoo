@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Bag</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="box">
+      <nav>
+        <h1>Shopping Bag</h1>
+      </nav>
+      <div class="row first">
+        <a class="icon" href="#">
+          <i class="fa-solid fa-x" style="color: #c7c7c7" font-size: 30px;></i>
+          <i
+            class="fa-solid fa-heart"
+            style="color: #949494"
+            font-size:
+            30px;
+          ></i>
+        </a>
+        <img
+          src="./Img/Nike Jordan.png"
+          width="150px"
+          alt=""
+          style="background-color: rgba(232, 234, 236, 0.938)"
+        />
+        <div class="about">
+          <h2>Jordan Mid</h2>
+          <span>Blue</span>
+        </div>
+        <div class="buttons">
+          <button>+</button>
+          <input type="number" />
+          <button>-</button>
+        </div>
+        <p>$799</p>
+      </div>
+      <div class="row second">
+        <a class="icon" href="#">
+          <i class="fa-solid fa-x" style="color: #c7c7c7" font-size: 30px;></i>
+          <i
+            class="fa-solid fa-heart"
+            style="color: #949494"
+            font-size:
+            30px;
+          ></i>
+        </a>
+        <img
+          src="./Img/adidass.png"
+          width="150px"
+          alt=""
+          style="background-color: rgba(232, 234, 236, 0.938)"
+        />
+        <div class="about">
+          <h2>Adidas Three Stripes</h2>
+          <span>Black</span>
+        </div>
+        <div class="buttons">
+          <button>+</button>
+          <input type="number" />
+          <button>-</button>
+        </div>
+        <p>$549</p>
+      </div>
+      <div class="row third">
+        <a class="icon" href="#">
+          <i class="fa-solid fa-x" style="color: #c7c7c7" font-size: 30px;></i>
+          <i
+            class="fa-solid fa-heart"
+            style="color: #949494"
+            font-size:
+            30px;
+          ></i>
+        </a>
+        <img
+          src="./Img/new balance.png"
+          width="150px"
+          alt=""
+          style="background-color: rgba(232, 234, 236, 0.938)"
+        />
+        <div class="about">
+          <h2>New Balance</h2>
+          <span>Green&White</span>
+        </div>
+        <div class="buttons">
+          <button onclick="increaseCount()">+</button>
+          <input type="number" id="count" />
+          <button onclick="decreaseCount()">-</button>
+        </div>
+        <p>$400</p>
+      </div>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>

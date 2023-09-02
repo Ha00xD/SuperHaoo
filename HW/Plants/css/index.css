@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;  
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    color: rgb(71, 71, 71);
+    font-family: sans-serif;
+}
+body{
+    background-color: rgba(255, 182, 193, 0.829);
+}
+#box{
+    background-color: rgba(240, 255, 255, 0.753);
+    width: 700px;
+    height: auto;
+    margin: 170px 440px 170px 430px;
+    box-shadow: -4px 2px 8px rgb(167, 167, 167);
+}
+#box .links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    border-bottom: 2px solid rgb(231, 231, 231);
+}
+.banner{
+    display: flex;
+}
+.banner .box-1{
+    width: 300px;
+    height: auto;
+    border-right: 2px solid rgb(231, 231, 231);
+}
+.box-1 img{
+    margin: 40px;
+}
+.banner .box-2{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+.box-2 h3,h1,button{
+    margin: 15px;
+}
+h1{
+    font-family: comic Sans MS;
+}
+p{
+    font-family: monospace;
+    font-size: 0.9rem;
+    color: rgb(179, 179, 179);
+}
+span{
+    color:rgb(179, 179, 179);
+    font-size: 0.8rem;
+    margin-left: 10px;
+}
+h2{
+    font-family: monospace;
+    font-size: 2rem;
+}
+button{
+    width: 140px;
+    margin-left: 21px;
+    margin-top: 20px;
+    padding: 8px 15px;
+    font-size: 1rem;
+    font-family: sans-serif;
+    background-color: aliceblue;
+    border: 1px solid rgb(215, 215, 215);
+    cursor: pointer;
+}
+
